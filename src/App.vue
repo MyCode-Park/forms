@@ -53,8 +53,6 @@ export default {
       if (this.isFormValid) {
         const validEmails = this.emails.filter((email) => email.valid).map((email) => email.value)
         console.log('Valid Emails:', validEmails)
-      } else {
-        console.log('Invalid Form Submission')
       }
     }
   }
